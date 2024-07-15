@@ -15,8 +15,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
   spec.osx.deployment_target = "10.15"
 
-  spec.source = {
-    spec.source           = { :path => '.' }
-  }
+  spec.source = { :path => '.' }
   spec.vendored_frameworks = "LiveKitWebRTC.xcframework"
 end
